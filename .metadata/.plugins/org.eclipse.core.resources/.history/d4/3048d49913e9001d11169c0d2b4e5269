@@ -1,0 +1,21 @@
+package basic.Selenium_java;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Practice_form 
+{
+	public static void main(String args[]) 
+	{
+		System.setProperty("webdriver.chrome.driver","D:\\Chrome Driver\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://fs2.formsite.com/meherpavan/form2/index.html?1537702596407");
+		
+		driver.manage().window().maximize();
+		
+		driver.findElement(By.id("RESULT_TextField-1")).sendKeys("selenium");
+		driver.findElement(By.name("RESULT_TextField-2")).sendKeys("patel");
+	}
+}
+

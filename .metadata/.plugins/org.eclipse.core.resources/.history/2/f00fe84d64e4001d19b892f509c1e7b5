@@ -1,0 +1,28 @@
+package Oops;
+
+
+class parentClass {
+     public void parentMethod() {
+    	 System.out.println("Parent method calling");
+     }
+}
+class Childclass extends parentClass {
+	 public void childMethod() {
+		 System.out.println(" Child method calling");
+	 }
+}
+class GrandChildclass extends Childclass {
+	 public void grandchildMethod() {
+		 System.out.println(" Grand Child method calling");
+	 }
+}
+public class MultilevelInheritance {
+	public static void main (String args[]) {
+		GrandChildclass c = new GrandChildclass();
+		c.parentMethod();
+		c.childMethod();
+		c.grandchildMethod();
+		parentClass p = new parentClass();
+		p.parentMethod();
+	}
+}

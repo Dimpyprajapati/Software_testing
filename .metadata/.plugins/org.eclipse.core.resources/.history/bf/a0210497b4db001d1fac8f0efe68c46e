@@ -1,0 +1,42 @@
+package core;
+
+import java.util.Scanner;
+
+//1. for;
+//2. while;
+//3. do while;
+//4. for each;
+
+//for  (initialization;condition;increment,decrement) {
+	// printing statement
+	// }
+//while (condition){
+      // printing statement
+      // }
+		
+public class loop {
+	public static void main(String args[]) {
+		
+		for (int i=0; i<11; i++) {
+			System.out.println(i);
+		}
+		
+//do while -> exit control loop
+		int i = 1;
+		do {
+			System.out.println(i);
+			i++;
+		   }
+		while (i<=10);
+		//int j = 10;
+		//do {
+		//	System.out.println(j);
+		//	j--;
+		//  }
+		//while (j>=1);
+		
+//for while -> Entry control loop
+		
+	}
+
+}

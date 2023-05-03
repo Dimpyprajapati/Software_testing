@@ -1,0 +1,34 @@
+package Oops;
+
+ class Parentclass {
+	public void Parentmethod() {
+	  System.out.println("parent method calling");
+    }
+}
+ class Childclass extends Parentclass {
+	public void childmethod() {
+		System.out.println("child method calling");
+	}
+}
+ class Grandchildclass extends Parentclass {
+	 public void grandchildmethod() {
+		 System.out.println("grand child method calling");
+	 }
+ }	
+
+ public class Hierarchical {
+	 public static void main(String args[]) {
+		 System.out.println("PARENT CLASS OBJECT---------->");
+		 Parentclass p = new Parentclass();
+		 p.Parentmethod();
+		 System.out.println("CHILD CLASS OBJECT----------->");
+		 Childclass c = new Childclass();
+		 c.Parentmethod();
+		 c.childmethod();
+		 System.out.println("GRAND CHILD CLASS OBJECT---------->");
+		 Grandchildclass g = new Grandchildclass();
+		 g.grandchildmethod();
+		 g.Parentmethod();
+	 }
+
+}

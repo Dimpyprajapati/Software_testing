@@ -1,0 +1,22 @@
+package Oops;
+
+final class data {
+      int i = 1;
+	final public void increment() {
+		i++;
+		System.out.println(i);
+	}	 
+}
+
+class childdata extends data {
+	public void increment() {
+		System.out.println("child data method");
+	}	
+}
+
+public class Final_keyword {
+	public static void main (String args[]) {
+		data d = new data;
+		d.increment();
+	}
+}

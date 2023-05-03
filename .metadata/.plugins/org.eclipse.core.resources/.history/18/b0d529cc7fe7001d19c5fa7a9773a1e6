@@ -1,0 +1,40 @@
+package Oops;
+
+abstract class RBI {
+	public abstract void interst();
+	public abstract void homeloan();
+}
+
+class SBI extends RBI {	
+	public void homeloan() {
+		System.out.println("sbi homeloan : 8%");
+	}
+	@Override
+	public void interst() {
+		// TODO Auto-generated method stub
+		System.out.println("sbi interest : 5%");
+	}
+}	
+
+class JAVA extends RBI {
+	public void homeloan() {
+		System.out.println("java homeloan : 7%");
+	}
+	@Override
+	public void interst() {
+		// TODO Auto-generated method stub
+		System.out.println("java interest : 7%");
+	}
+}
+
+public class Abstraction {
+	public static void main(String args[]) {
+		SBI s = new SBI();
+		s.interest();
+		s.homeloan();
+		JAVA j = new JAVA();
+		j.interest();
+		j.homeloan();
+	}
+
+}

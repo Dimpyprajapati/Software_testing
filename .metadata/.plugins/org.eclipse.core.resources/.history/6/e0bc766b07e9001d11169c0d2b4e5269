@@ -1,0 +1,12 @@
+package Assignment;
+
+public class Second_largest_element {
+	static int second_largest(int[]a) {
+		
+	}
+	public static void main(String args[]) {
+		int[] a = {20,45,90,75,63,40};
+		
+	}
+
+}

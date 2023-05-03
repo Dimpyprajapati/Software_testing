@@ -1,0 +1,28 @@
+package core;
+
+ import java.util.Scanner;
+ class scanner
+ {
+		public static void main(String args[]) 
+		{
+          Scanner S= new Scanner (System.in);
+          
+          System.out.println ("enter Your Name");
+          String name=S.next();
+          
+          System.out.println ("enter Your Age");
+          int age=S.nextInt();
+          
+          System.out.println ("enter Your Gender");
+          char gender=S.next().charAt(0);
+          
+          System.out.println ("enter Your Phone number");
+          long phonenumber=S.nextLong();
+         
+          System.out.println ("_____________");
+          System.out.println ("Name:" +name);
+          System.out.println ("Age:" +age);
+          System.out.println ("Gender:" +gender);
+          System.out.println ("Phone number:" +phonenumber);
+        }
+ }

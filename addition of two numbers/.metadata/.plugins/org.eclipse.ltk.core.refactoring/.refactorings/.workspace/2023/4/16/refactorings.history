@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;Java assignment/.settings&apos;" deleteContents="false" description="Delete resource &apos;Java assignment/.settings&apos;" element1="/Java assignment/.settings" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1681793521080"/>&#x0A;<refactoring comment="Delete resource &apos;Java assignment/.classpath&apos;" deleteContents="false" description="Delete resource &apos;Java assignment/.classpath&apos;" element1="/Java assignment/.classpath" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1681793535427"/>
+</session>

@@ -1,0 +1,25 @@
+package core;
+
+ import java.util.Scanner;//import the scanner class
+ class scanner
+ {
+		public static void main(String args[]) 
+		{
+          Scanner S= new Scanner (System.in);
+          
+          System.out.print ("enter Your Name, Age, Gender, Phone number, salary");//string input
+          
+          String name=S.next();
+          int age=S.nextInt();
+          char gender=S.next().charAt(0);
+          long phonenumber=S.nextLong();
+          Double salary=S.nextDouble();
+         
+          System.out.print ("_____________");
+          System.out.print ("Name:" +name);
+          System.out.print ("Age:" +age);
+          System.out.print ("Gender:" +gender);
+          System.out.print ("Phone number:" +phonenumber);
+          System.out.print ("salary:" +salary);
+        }
+ }

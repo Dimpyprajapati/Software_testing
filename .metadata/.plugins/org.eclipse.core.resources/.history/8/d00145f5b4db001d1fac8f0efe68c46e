@@ -1,0 +1,25 @@
+package core;
+
+//1. for;
+//2. while;
+//3. do while;
+//4. for each;
+
+//for  (initialization;condition;increment,decrement) {
+	// printing statement
+	// }
+//while (condition){
+      // printing statement
+      // }
+		
+public class loop {
+	public static void main(String args[]) {
+		
+		for (int i=0; i<11; i++) {
+			System.out.print(i);
+		}
+		
+
+	}
+
+}

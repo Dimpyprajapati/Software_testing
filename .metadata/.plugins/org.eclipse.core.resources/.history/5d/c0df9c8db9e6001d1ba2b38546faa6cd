@@ -1,0 +1,21 @@
+package Oops;
+
+class abc {
+	public void add (int i) {
+		System.out.println("first : " +i);
+	}
+	public void add(int i,int j) {
+		System.out.println("first : " +(i+j));
+	}
+	public void add(int i,int j,String k) {
+		System.out.println("first : " +(i+j)+k);
+	}
+}
+
+public class Overloading {
+	public static void main (String args[]) {
+		abc a = new abc();
+		a.add(3, 5, "java");
+	}
+
+}

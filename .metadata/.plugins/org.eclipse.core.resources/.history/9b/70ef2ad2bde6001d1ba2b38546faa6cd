@@ -1,0 +1,19 @@
+package Oops;
+
+class parentclass {
+	public parentclass() {
+		
+	}
+	
+}
+
+class childclass {
+	public childclass() {
+		
+	}
+}
+
+public class Overriding {
+	public static void main(String args[]) {
+
+}

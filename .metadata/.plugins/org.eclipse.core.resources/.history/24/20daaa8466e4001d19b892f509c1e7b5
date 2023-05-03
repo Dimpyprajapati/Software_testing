@@ -1,0 +1,22 @@
+package Oops;
+
+class P1{
+	public void run() {
+		
+	}
+}
+class P2{
+	public void run() {
+		
+	}
+}
+class Child extends P1,P2 {
+	
+}
+public class multipleinheritance {
+	public static void main(String[] args) {
+		Child c = new Child();
+		c.run();
+	}
+}
+}
