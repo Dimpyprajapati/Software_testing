@@ -1,0 +1,30 @@
+package extra;
+
+import java.util.Scanner;
+
+//* throw and throws keyword 
+
+public class Exceptiondemo {
+	public void div(int a,int b) throws ArithmeticException
+	{
+		if(b==0)
+		{
+			throw new ArithmeticException();
+		}
+		else
+		{
+			int c = a/b;
+			System.out.println(c);
+		}
+	}
+    public static void main(String[] args) {
+		Exceptiondemo e = new Exceptiondemo();
+		try {
+			e.div(20, 0);
+		} catch (Exception e2) {
+			// TODO: handle exception
+			System.out.println("The value of b is zero");
+		}
+	}
+ }	
+

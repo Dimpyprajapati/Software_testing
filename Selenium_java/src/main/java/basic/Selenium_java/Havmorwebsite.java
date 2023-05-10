@@ -10,8 +10,8 @@ public class Havmorwebsite {
       WebDriver driver = new ChromeDriver();
       driver.get("https://www.havmor.com/");
 
-      driver.manage().window().maximize();
-      driver.findElement(By.xpath("//*[@id=\"block-flavours\"]/div/section/div[2]/div/div/ul/li[2]/a/img")).click();
-        
+    //  driver.manage().window().maximize();
+      driver.findElement(By.xpath("//div[@class='views-element-container']/div/div/ul/li[3]")).click();
+      	
     }
 }

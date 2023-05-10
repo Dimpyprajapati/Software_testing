@@ -1,6 +1,6 @@
-              //* Calculate the average value of array elements *//
-
 package Assignment;
+
+//* Calculate the average value of array elements *//
 
 public class Calculate_average_value {
 	public static void main(String args[]) {

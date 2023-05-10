@@ -1,0 +1,25 @@
+package File_handling;
+
+class Employee {
+	int id;
+	String name;
+	double salary;
+	
+	public Employee(int id, String name, double salary) {
+		this.id = id;
+		this.name = name;
+		this.salary = salary;
+	}
+	@Override
+	public String toString() {
+		return "id : "  +id + "name : " + name+"salary : " +salary;
+	}
+}
+public class Serialization {
+	public static void main(String[] args) {
+		Employee e1 = new Employee(1, "java",45000.36);
+		System.out.println(e1);
+		
+	}
+
+}

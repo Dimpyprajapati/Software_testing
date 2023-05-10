@@ -14,7 +14,7 @@ public class Custom_Exception {
 		    	System.out.println("Your balance is = " +ca.getbalance());
 		    }
 	}
-	
+
 public class CheckingAccount {
 	private int acn;
 	private double balance;

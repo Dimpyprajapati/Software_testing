@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;basic.Selenium_java.Facebook_loginpage&apos; to &apos;Facebook_loginpage_forloop&apos;&#x0D;&#x0A;- Original project: &apos;Selenium_java&apos;&#x0D;&#x0A;- Original element: &apos;basic.Selenium_java.Facebook_loginpage&apos;&#x0D;&#x0A;- Renamed element: &apos;basic.Selenium_java.Facebook_loginpage_forloop&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Facebook_loginpage&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;basic.Selenium_java{Facebook_loginpage.java[Facebook_loginpage" matchStrategy="1" name="Facebook_loginpage_forloop" qualified="false" references="true" similarDeclarations="false" stamp="1683699255164" textual="false" version="1.0"/>
+</session>

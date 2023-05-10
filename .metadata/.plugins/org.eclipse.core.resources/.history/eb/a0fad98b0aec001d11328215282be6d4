@@ -1,0 +1,20 @@
+package File_handling;
+
+import java.io.FileOutputStream;
+
+public class File_inputoutput_stream {
+	public static void main(String[] args) {
+		String s = "file handling by file input output stream.";
+		FileOutputStream fos = FileOutputStream("t1.txt"); 
+		byte b[] = s.getBytes();
+		fos.write(b);
+		fos.flush();
+		fos.close();
+		System.out.println("File written Succesfully");
+		
+	}
+
+	
+	
+
+}
