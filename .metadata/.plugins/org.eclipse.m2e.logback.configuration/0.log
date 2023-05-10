@@ -3313,3 +3313,4 @@ java.net.URISyntaxException: Illegal character in path at index 21: file:/C:/Use
 2023-05-10 13:15:56,657 [Worker-111: Launching Facebook_loginpage_forloop] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2023-05-10 13:15:56,657 [Worker-111: Launching Facebook_loginpage_forloop] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dimple Prajapati\eclipse-workspace\Selenium_java\src\main\resources
 2023-05-10 13:15:56,658 [Worker-111: Launching Facebook_loginpage_forloop] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-10 13:15:56,658 [Worker-111: Launching Facebook_loginpage_forloop] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dimple Prajapati\eclipse-workspace\Selenium_java\src\test\resources
