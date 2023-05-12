@@ -7,11 +7,11 @@ public class Custom_Exception {
 		ca.deposite(10000);
 		try {
 			ca.withdral(70000);
-			System.out.println("Your balance is = " +ca.getbalance());	
+			System.out.println("Your balance is = " +ca.getBalance());	
 		    }catch
 		    (InsufficintFundException e) {
 		    	System.out.println("You have no sufficient balance,you need more" +e.getAmount());
-		    	System.out.println("Your balance is = " +ca.getbalance());
+		    	System.out.println("Your balance is = " +ca.getBalance());
 		    }
 	}
 
