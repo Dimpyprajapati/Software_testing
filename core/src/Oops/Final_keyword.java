@@ -5,23 +5,25 @@ package Oops;
 //Final method --> Method cannot be override.
 //Final class --> Class cannot be inherited.
 
-final class data {
-    final int i = 12;
-	final public void increment() {
-		i++;
-		System.out.println(i);
+final class AAA {
+    final int i = 10;
+	final public void cell() {
+///		i++;
+		System.out.println(" i = "+i);
 	}	 
 }
 
-class childdata extends data {
-	public void increment() {
-		System.out.println("child data method");
+class B extends AAA {
+	public void cell() {
+		System.out.println("call in B class");
 	}	
 }
 
 public class Final_keyword {
 	public static void main (String args[]) {
-		data d = new data();
-		d.increment();
+		AAA a = new AAA();
+		a.cell();
+		B b  = new B();
+		b.cell();
 	}
 }

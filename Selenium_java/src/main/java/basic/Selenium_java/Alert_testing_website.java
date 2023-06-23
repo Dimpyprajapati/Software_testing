@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Alert_testing_website {
 	 public static void main(String[] args) {
-    	 System.setProperty("webdriver.chrome.driver","D:\\Chrome Driver\\chromedriver.exe");
+    	 System.setProperty("webdriver.chrome.driver","D:\\chromedriver_win32\\chromedriver.exe");
          WebDriver driver = new ChromeDriver();
          driver.get("https://demo.automationtesting.in/Alerts.html");
          
@@ -33,6 +33,7 @@ public class Alert_testing_website {
          WebElement inputbtn = driver.findElement(By.xpath("//div[@id='Textbox']/button"));
          inputbtn.click();
          Alert tagAlert = driver.switchTo().alert();
+         System.out.println(tagAlert.getText());
          tagAlert.sendKeys("Automation testing user");
          tagAlert.accept();
          

@@ -14,8 +14,9 @@ public class Custom_Exception {
 		    	System.out.println("Your balance is = " +ca.getBalance());
 		    }
 	}
+}
 
-public class CheckingAccount {
+class CheckingAccount {
 	private int acn;
 	private double balance;
 	
@@ -41,7 +42,7 @@ public class CheckingAccount {
 	}
 }
 
-public class InsufficintFundException extends Exception {
+class InsufficintFundException extends Exception {
 		double amount;
 	public InsufficintFundException(double amount) {
 		this.amount = amount;
@@ -49,5 +50,4 @@ public class InsufficintFundException extends Exception {
 	public double getAmount() {
 		return amount;
 	 }
-   }
 }

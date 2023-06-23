@@ -1,16 +1,14 @@
 package basic.Selenium_java;
 
-import java.util.Iterator;
 import java.util.Set;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Windows_handle {
 	public static void main(String[] args) {
-		System.setProperty("webdriver.chrome.driver","D:\\Chrome Driver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","D:\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://demo.guru99.com/popup.php");
 		

@@ -2,6 +2,9 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\Dimple Prajapati\eclipse-workspace\Selenium_java"/>
+			<item value="C:\Users\Dimple Prajapati\eclipse-workspace\java"/>
+			<item value="C:\Users\Dimple Prajapati\eclipse-workspace\core"/>
 			<item value="C:\Users\Dimple Prajapati\eclipse-workspace\core\src\core\pattern.java"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -26,12 +29,25 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="testNg.TestNg_Learningss"/>
+			<item value="testNg.bhjbhjkj"/>
+			<item value="testNg.testNg_learnings"/>
+			<item value="testNg.TestNg_learning"/>
+			<item value="testNg.testNg_Learning"/>
+			<item value="testNg.testNg_learning"/>
 			<item value="basic.Selenium_java"/>
 		</list>
 		<list key="groupId">
+			<item value="testNg"/>
 			<item value="basic"/>
 		</list>
 		<list key="artifactId">
+			<item value="TestNg_Learningss"/>
+			<item value="bhjbhjkj"/>
+			<item value="testNg_learnings"/>
+			<item value="TestNg_learning"/>
+			<item value="testNg_Learning"/>
+			<item value="testNg_learning"/>
 			<item value="Selenium_java"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -66,6 +82,14 @@
 		</list>
 	</section>
 	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
 	</section>

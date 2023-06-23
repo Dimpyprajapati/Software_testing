@@ -17,4 +17,8 @@
 		<item key="moveWizard.updateQualifiedNames" value="false"/>
 		<item key="patterns" value="*"/>
 	</section>
+	<section name="RefactoringWizard.Convert from JUnit">
+		<item key="width" value="730"/>
+		<item key="height" value="579"/>
+	</section>
 </section>

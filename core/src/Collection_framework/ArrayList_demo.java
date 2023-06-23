@@ -2,6 +2,7 @@ package Collection_framework;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Iterator;
 
 public class ArrayList_demo {
 	public static void main(String[] args) {
@@ -42,6 +43,11 @@ public class ArrayList_demo {
 	//sorting
 		Collections.sort(list);
 		System.out.println(list);
+		
+		Iterator itr = list.iterator();
+		while (itr.hasNext()) {
+			System.out.println(itr.next());
+		}
 		
 	}
 }

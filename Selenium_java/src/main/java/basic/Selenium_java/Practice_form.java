@@ -11,7 +11,7 @@ public class Practice_form
 {
 	public static void main(String args[]) 
 	{
-		System.setProperty("webdriver.chrome.driver","D:\\Chrome Driver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","D:\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://fs2.formsite.com/meherpavan/form2/index.html?1537702596407");
 		
