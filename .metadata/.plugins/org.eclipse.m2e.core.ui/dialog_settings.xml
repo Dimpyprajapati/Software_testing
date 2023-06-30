@@ -29,26 +29,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="testNg.TestNg_Learningss"/>
-			<item value="testNg.bhjbhjkj"/>
-			<item value="testNg.testNg_learnings"/>
-			<item value="testNg.TestNg_learning"/>
-			<item value="testNg.testNg_Learning"/>
-			<item value="testNg.testNg_learning"/>
-			<item value="basic.Selenium_java"/>
+			<item value="FirstAppium.Appium"/>
 		</list>
 		<list key="groupId">
-			<item value="testNg"/>
-			<item value="basic"/>
+			<item value="FirstAppium"/>
 		</list>
 		<list key="artifactId">
-			<item value="TestNg_Learningss"/>
-			<item value="bhjbhjkj"/>
-			<item value="testNg_learnings"/>
-			<item value="TestNg_learning"/>
-			<item value="testNg_Learning"/>
-			<item value="testNg_learning"/>
-			<item value="Selenium_java"/>
+			<item value="Appium"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
