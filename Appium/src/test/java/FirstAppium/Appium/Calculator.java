@@ -27,6 +27,7 @@ public class Calculator {
 			e.printStackTrace();	
 		}
 	}
+	
 	public static void openCalc() throws MalformedURLException, InterruptedException {
 		DesiredCapabilities dc = new DesiredCapabilities();
 		
@@ -47,15 +48,17 @@ public class Calculator {
 //		URL url = new URL("http://127.0.0.1.4723/wd/hub");
 		driver = new AppiumDriver(url, dc);
 		
-//		driver.findElement(By.id("com.miui.calculator:id/listView")).click();
-		WebElement eight = driver.findElement(By.id("com.miui.calculator:id/btn_8_s"));
-		WebElement div   = driver.findElement(By.id("com.miui.calculator:id/btn_div_s"));
-		WebElement two  = driver.findElement(By.id("com.miui.calculator:id/btn_2_s"));
+    	driver.findElement(By.id("com.miui.calculator:id/listView")).click();
+    	Thread.sleep(2000);
+    	
+		WebElement five = driver.findElement(By.id("com.miui.calculator:id/btn_5_s"));
+		WebElement plus   = driver.findElement(By.id("com.miui.calculator:id/btn_plus_s"));
+		WebElement three  = driver.findElement(By.id("com.miui.calculator:id/btn_3_s"));
 		WebElement eq  = driver.findElement(By.id("com.miui.calculator:id/btn_equal_s"));
 		WebElement res = driver.findElement(By.id("com.miui.calculator:id/expression"));
-		eight.click();
-		div.click();
-		two.click();
+		five.click();
+		plus.click();
+		three.click();
 		eq.click();
 		String result = res.getText();
 		System.out.println("app started "+result);
